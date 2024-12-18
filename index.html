@@ -11,6 +11,9 @@
                 extend: {
                 colors: {
                 clifford: "#da373d",
+                customGrey: "#949494",
+                GreyLight: "#686868",
+                GreyDark: "#545454"
                 },
                 fontSize: {
                 "meine-groesse": "7rem",
@@ -101,11 +104,12 @@
     <!--= INFO BLOCK -->
     <section class="relative">
         <!-- Row 1 -->
-        <div class="flex items-center" style="background-color: rgba(0, 0, 0, 0.08);">
+        <div class="flex items-center bg-customGrey">
             <div class="w-1/2">
                 <img src="/assets/img/image1.jpg" class="w-full h-full object-cover">
             </div>
-            <div class="w-1/2 pl-8">
+
+            <div class="w-1/2 pl-8 ml-20 mr-20">
                 <h3 class="text-4xl font-bold uppercase text-white">Colombia <br>
                     - vibrant latinamerica</h3>
                 <p class="mt-4 text-lg text-white">
@@ -121,11 +125,11 @@
         </div>
     
         <!-- Row 2 -->
-        <div class="flex items-center" style="background-color: rgba(0, 0, 0, 0.15);">
+        <div class="flex items-center bg-GreyLight">
             <div class="w-1/2 order-2 md:order-1">
                 <img src="/assets/img/image2.jpg" class="w-full h-full object-cover">
             </div>
-            <div class="w-1/2 pr-8">
+            <div class="w-1/2 pr-8 ml-20 mr-20">
                 <h3 class="text-4xl font-bold uppercase text-white">Paris <br>
                     - pure elegance</h3>
                 <p class="mt-4 text-lg text-white">
@@ -138,11 +142,11 @@
         </div>
     
         <!-- Row 3 -->
-        <div class="flex items-center" style="background-color: rgba(0, 0, 0, 0.022);">
+        <div class="flex items-center bg-GreyDark">
             <div class="w-1/2">
                 <img src="/assets/img/image3.jpg" class="w-full h-full object-cover">
             </div>
-            <div class="w-1/2 pl-8">
+            <div class="w-1/2 pl-8 ml-20 mr-20">
                 <h3 class="text-4xl font-bold uppercase text-white">Hungary<br>
                     - unknown beauty</h3>
                 <p class="mt-4 text-lg text-white">
@@ -161,97 +165,120 @@
     <!--= OUR PROMISE BLOCK -->
 
     <section class="relative bg-[#505393] text-white py-16">
-        <div class="container mx-auto px-4">
+        <div class="mx-60 px-4">
             <!-- Main Title -->
 
-            <div class="text-center mb-8">
+            <div class="text-center mb-60">
                 <h2 class="text-5xl font-bold uppercase">Our Promise</h2>
-                <p class="text-lg mt-4">At Wanderlust Adventures, we understand that every traveler is unique, and that's why we offer personalized
+                <span class="block h-0.5 bg-gray-500 w-80 mt-10 mb-10 mx-auto"></span>
+                <p class="text-lg mt-8">At Wanderlust Adventures, we understand that every traveler is unique, and that's why we offer personalized
                     itineraries. Our team of expert travel consultants will work closely with you to understand your preferences,
                     interests, and budget, crafting a tailor-made trip that exceeds your expectations.</p>
             </div>
     
             <!-- Container 6 slots 2x3 -->
-            <div class="grid grid-cols-2 md:grid-cols-2 gap-8"> 
+            <div class="grid grid-cols-2 md:grid-cols-2 "> 
 
                 <!-- Slot 1 -->
-                <div class="h-64 flex flex-col justify-center items-center" style="background-color: rgba(0, 0, 0, 0.04);">
-                    <h3 class="text-3xl font-bold">Personalized
-                        Itineraries</h3>
-                    <p class="mt-4">Our travel agency specializes in
-                        crafting customized itineraries
-                        tailored to your preferences,
-                        ensuring that every aspect of your
-                        journey is personalized to create a
-                        truly unique and unforgettable
-                        experience.</p>
+                <div class="h-100" style="background-color: rgba(0, 0, 0, 0.04);">
+                    <div class="ml-20 mr-20 mt-10 mb-10">
+                        <h3 class="text-3xl font-bold">Personalized
+                            Itineraries</h3>
+                        <p class="mt-4">Our travel agency specializes in
+                            crafting customized itineraries
+                            tailored to your preferences,
+                            ensuring that every aspect of your
+                            journey is personalized to create a
+                            truly unique and unforgettable
+                            experience.</p>
+                    </div>
+                    
                 </div>
     
                 <!-- Slot 2 -->
-                <div class="h-64 flex flex-col justify-center items-center" style="background-color: rgba(0, 0, 0, 0.07);">
-                    <h3 class="text-3xl font-bold">Expert Destination
-                        Knowledge</h3>
-                    <p class="mt-4">With our team of experienced travel
-                        consultants, we have in-depth
-                        knowledge of various destinations
-                        worldwide. From popular tourist
-                        spots to hidden gems, we provide
-                        expert guidance to help you choose
-                        the perfect destination that matches
-                        your interests and desires.</p>
+                <div class="h-100" style="background-color: rgba(0, 0, 0, 0.07);">
+                    <div class="ml-20 mr-20 mt-10 mb-10">
+                        <h3 class="text-3xl font-bold">Expert Destination
+                            Knowledge</h3>
+                        <p class="mt-4">With our team of experienced travel
+                            consultants, we have in-depth
+                            knowledge of various destinations
+                            worldwide. From popular tourist
+                            spots to hidden gems, we provide
+                            expert guidance to help you choose
+                            the perfect destination that matches
+                            your interests and desires.
+                        </p>
+                    </div>
+                    
                 </div>
     
                 <!-- Slot 3 -->
-                <div class="h-64 flex flex-col justify-center items-center" style="background-color: rgba(0, 0, 0, 0.11);">
-                    <h3 class="text-3xl font-bold">Hassle-free Planning</h3>
-                    <p class="mt-4">Leave the logistics to us. Our travel
-                        agency takes care of all the
-                        arrangements, including flights,
-                        accommodations, transportation,
-                        and activities, so you can relax and
-                        focus on enjoying your trip without
-                        the stress of planning and
-                        organizing.</p>
+                <div class="h-100" style="background-color: rgba(0, 0, 0, 0.11);">
+                    <div class="ml-20 mr-20 mt-10 mb-10">
+                        <h3 class="text-3xl font-bold">Hassle-free Planning</h3>
+                        <p class="mt-4">Leave the logistics to us. Our travel
+                            agency takes care of all the
+                            arrangements, including flights,
+                            accommodations, transportation,
+                            and activities, so you can relax and
+                            focus on enjoying your trip without
+                            the stress of planning and
+                            organizing.
+                        </p>
+                    </div>
+                    
                 </div>
     
                 <!-- Slot 4 -->
-                <div class="h-64 flex flex-col justify-center items-center" style="background-color: rgba(0, 0, 0, 0.14);">
-                    <h3 class="text-3xl font-bold">Exclusive Deals and
-                        Packages</h3>
-                    <p class="mt-4">We offer a wide range of exclusive
-                        deals and packages that provide
-                        exceptional value for your money.
-                        From discounted airfare to special
-                        hotel rates and unique experiences,
-                        we strive to make your travel dreams
-                        affordable and accessible.</p>
+                <div class="h-100" style="background-color: rgba(0, 0, 0, 0.14);">
+                    <div class="ml-20 mr-20 mt-10 mb-10">
+                        <h3 class="text-3xl font-bold">Exclusive Deals and
+                            Packages</h3>
+                        <p class="mt-4">We offer a wide range of exclusive
+                            deals and packages that provide
+                            exceptional value for your money.
+                            From discounted airfare to special
+                            hotel rates and unique experiences,
+                            we strive to make your travel dreams
+                            affordable and accessible.
+                        </p>
+                    </div>
                 </div>
     
                 <!-- SLot 5 -->
-                <div class="h-64 flex flex-col justify-center items-center" style="background-color: rgba(0, 0, 0, 0.18);">
-                    <h3 class="text-3xl font-bold">24/7 Customer
-                        Support</h3>
-                    <p class="mt-4">Our dedicated customer support
-                        team is available round-the-clock to
-                        assist you during your travels.
-                        Whether you need help with last-
-                        minute changes, have questions, or
-                        require any assistance, we are just a
-                        phone call or email away.</p>
+                <div class="h-10r" style="background-color: rgba(0, 0, 0, 0.18);">
+                    <div class="ml-20 mr-20 mt-10 mb-10">
+                        <h3 class="text-3xl font-bold">24/7 Customer
+                            Support</h3>
+                        <p class="mt-4">Our dedicated customer support
+                            team is available round-the-clock to
+                            assist you during your travels.
+                            Whether you need help with last-
+                            minute changes, have questions, or
+                            require any assistance, we are just a
+                            phone call or email away.
+                        </p>
+                    </div>
+                    
                 </div>
     
                 <!-- Slot 6 -->
-                <div class="h-64 flex flex-col justify-center items-center" style="background-color: rgba(0, 0, 0, 0.21);">
-                    <h3 class="text-3xl font-bold">Safety and Security</h3>
-                    <p class="mt-4">Your safety is our utmost priority.
-                        We partner with reputable airlines,
-                        trusted accommodation providers,
-                        and reliable local operators to
-                        ensure that your travel experience is
-                        not only enjoyable but also secure.
-                        We carefully monitor travel
-                        advisories and provide guidance to
-                        ensure a worry-free journey.</p>
+                <div class="h-100" style="background-color: rgba(0, 0, 0, 0.21);">
+                    <div class="ml-20 mr-20 mt-10 mb-10">
+                        <h3 class="text-3xl font-bold">Safety and Security</h3>
+                        <p class="mt-4">Your safety is our utmost priority.
+                            We partner with reputable airlines,
+                            trusted accommodation providers,
+                            and reliable local operators to
+                            ensure that your travel experience is
+                            not only enjoyable but also secure.
+                            We carefully monitor travel
+                            advisories and provide guidance to
+                            ensure a worry-free journey.
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -263,10 +290,10 @@
     <!--= Pre FOOTER BLOCK -->
 
     <section class="relative bg-cover bg-center bg-no-repeat max-h-screen" style="background-image: url('/assets/img/bottom.jpg'); height: 500px;">
-        <div class="container mx-auto flex items-center justify-between h-full">
+        <div class=" ml-72 mr-72 flex items-center justify-between h-full">
             <!-- Text content -->
             <div class="w-1/2">
-                <h2 class="text-4xl font-bold text-white">Contact Us</h2>
+                <h2 class="text-4xl font-bold text-white uppercase">Contact Us</h2>
                 <p class="mt-4 text-lg text-white">So, what are you waiting for? Unleash your
                     wanderlust and let us transform your dreams into
                     reality. Contact us today, and let's embark on an
@@ -276,8 +303,8 @@
             </div>
     
             <!-- Button -->
-            <div class="w-1/2 flex justify-end">
-                <a href="#" class="mt-8 px-8 py-3 bg-orange-500 text-white font-bold uppercase rounded-lg shadow-lg hover:bg-orange-700 transition-all">Contact Us</a>
+            <div class="w-1/2 flex relative">
+                <a href="#" class="absolute top-0 right-0 mt-8 px-8 py-3 bg-orange-500 text-white font-bold uppercase shadow-lg hover:bg-orange-700 transition-all">Contact Us</a>
             </div>
         </div>
     </section>
@@ -290,27 +317,27 @@
             
             <!-- Social Icons Section -->
             <div class="flex space-x-6 justify-center gap-8 mt-20">
-                <a href="#" class="text-white hover:text-gray-400">
+                <a href="#" class="text-white hover:text-gray-400 transform transition-transform hover:scale-150 hover:animate-pulse">
                     <img src="/assets/img/1icon-twitter.png" alt="Twitter">
                 </a>
-    
-                <a href="#" class="text-white hover:text-gray-400">
+            
+                <a href="#" class="text-white hover:text-gray-400 transform transition-transform hover:scale-150 hover:animate-pulse">
                     <img src="/assets/img/2icon-facebook.png" alt="Facebook">
                 </a>
-    
-                <a href="#" class="text-white hover:text-gray-400">
+            
+                <a href="#" class="text-white hover:text-gray-400 transform transition-transform hover:scale-150 hover:animate-pulse">
                     <img src="/assets/img/3icon-instagtram.png" alt="Instagram">
                 </a>
-    
-                <a href="#" class="text-white hover:text-gray-400">
+            
+                <a href="#" class="text-white hover:text-gray-400 transform transition-transform hover:scale-150 hover:animate-pulse">
                     <img src="/assets/img/4icon-4.png" alt="World">
                 </a>
-    
-                <a href="#" class="text-white hover:text-gray-400">
+            
+                <a href="#" class="text-white hover:text-gray-400 transform transition-transform hover:scale-150 hover:animate-pulse">
                     <img src="/assets/img/5icon-email.png" alt="Email">
                 </a>
             </div>
-    
+
             <!-- Copyright and Design Info -->
             <div class="mt-auto flex items-center space-x-4">
                 <span>© Wanderlust Adventures</span>
